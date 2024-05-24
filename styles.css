@@ -1,3 +1,6 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
 /* The Close Button */
 .close {
     color: #aaa;
@@ -32,6 +35,8 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #aaa;
+    padding: 3em;
+    border-radius: 5px;
 }
 
 ul {
@@ -46,7 +51,7 @@ header ul li {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0 20em;
     background-color: #f4f4f4;
 }
 
@@ -89,4 +94,30 @@ h2 {
 .form-group input[type="submit"]:hover {
     background-color: #0056b3;
 }
-  
+
+img {
+    width: 200px;
+}
+
+.anchor_featureEvent {
+    background-color: #d2e4f0;
+    border-radius: 1em;
+    padding: 3em;
+    margin: 2em 0;
+}
+
+.anchor_regularEvent {
+    background-color: #ebebeb;
+    border-radius: 1em;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+
+.anchor_regularEvent div{
+    background-color: #dfffdf;
+    border-radius: 1em;
+    padding: 2em;
+
+}
